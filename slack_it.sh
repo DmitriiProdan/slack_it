@@ -17,7 +17,7 @@ send_dat_curl_girl(){
 
     echo "slack message is $slack_message"
 
-    curl --proxy 69.252.103.42:3128 -X POST https://hooks.slack.com/services/<CHANGE THIS BEFORE USING> \
+    curl --proxy 69.666.420.69:3128 -X POST https://hooks.slack.com/services/<CHANGE THIS BEFORE USING> \
     -H "Content-type: application/json" \
     -d  "$slack_message"
 }
