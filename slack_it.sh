@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 
-# This checks for NotReady nodes using kube_kube_moniter.py and just pipes it to Slack
+# Setup 
+
+# The output from the command in the run_command function will be sent to Slack
+# Update the curl command on line 19 with proxy and add the correct Slack webhook after 'POST' on this line. Fire with Cron.
 
 run_command(){
 # cd /opt/app -- Use this line on the VM we are using
