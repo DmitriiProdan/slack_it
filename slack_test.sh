@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+#Test Slack posting with the following command
+# ./slack_test.sh <Test Message Here>
+
 # For Slack webhook. Posts to a chat room
 message=$1
 
