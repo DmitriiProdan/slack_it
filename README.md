@@ -8,7 +8,6 @@ Great for one off things that need to be watched or being proactive about someth
 
 * Curl a api or website and parse out failure messages to alert on 
 * Parse a specific error on a target machine to alert on
-* 
 
 ### Setup 
 1. Update the run_command function with the command you need to grab output from. 
